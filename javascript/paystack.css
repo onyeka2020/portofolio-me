@@ -1,0 +1,43 @@
+body{
+    background: rgba(234, 246, 252, alpha);
+}
+
+
+
+form{
+    width: 500px;
+    height: 600px;
+    background: rgb(1, 27, 51);
+    color: #fff;
+    border-radius: 10px;
+    margin: 50px auto 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+
+input{
+    width: 100%;
+    height: 60px;
+    background: rgb(9, 34, 58);
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    
+   
+}
+
+
+input:hover, input:focus {
+    border: 1px solid skyblue;
+}
+
+#customerMoney{
+    float: left;
+}
+
+#companyPercent{
+    float: right;
+}

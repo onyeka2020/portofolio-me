@@ -1,0 +1,91 @@
+.container-1, .container-2, .container-3, .container-4{
+    border: solid 1px black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-flex-1, .container-flex-2, .container-flex-3, .container-flex-4{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-flex-1 div{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+}
+
+
+
+.container-flex-2 img{
+    border: 1px solid black;
+    margin: 10px;
+   box-shadow: 0px 10px 40px rgba(0, 0, 0, 7);
+}
+
+
+
+.container-flex-3 img:hover{
+box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+
+.container-flex-4{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+
+
+}
+
+form input{
+    width: 200px;
+}
+
+form #sub{
+    width: 100px;
+    margin-left: 80px;
+}
+
+
+/* 
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.time {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#playbutton{
+    display: block;
+}
+
+#pausebutton{
+    display: none;
+} */
+
+

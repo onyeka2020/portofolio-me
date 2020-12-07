@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #one{
+            background-image: url('facebook-clone.png');
+            width: 500px;
+            height: 500px;
+        }
+        #two{
+            background-image: url('netflix-clone.jpeg');
+            width: 500px;
+            height: 500px;
+        }
+     
+    </style>
+</head>
+<body>
+
+    <div id="one"></div>
+    <div id="two"></div>
+
+   
+    <button onclick="powerOn()" >on</button>
+    <button onclick="powerOff()">off</button>
+
+
+
+
+<script>
+
+    function powerOn(){
+    alert(Document.getElementById('one').style.backgroundImage);
+    }
+
+    function powerOff(){
+    alert(Document.getElementById('two').style.backgroundImage);
+    }
+
+</script>    
+    
+</body>
+</html>

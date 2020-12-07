@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .light-mode{
+            background: skyblue;
+        }
+
+        .dark-mode{
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <p id="demo">Original info</p>
+    <p>Original information</p>
+    <h1>A tag element to be manipulated</h1>
+    <h1>A tag element to be manipulated</h1>
+    <h1>A tag element to be manipulated</h1>
+    <h1>A tag element to be manipulated</h1>
+    <h1>A tag element to be manipulated</h1>
+
+    <button onclick="sayHi()">click</button>
+    <p id="eventGuy"></p>
+
+    <button id="changer" onmouseover="colorChanger()" onmouseout="reset">Hove me</button>
+
+
+                     <!-- EVENT HANDLING -->
+        <button>click</button>
+                        <!-- Event Listing -->
+        <button onclick="modeChange">click</button>
+                    <!-- getvalue -->
+        <p id="Cinfo">the current info</p>            
+
+<!-- innerHTML can change tag while innertext can change text -->
+    <script>
+                        
+        // document.getElementsByTagName('demo').innerHTML= '<h1>this is DOM shit</h1>'
+        // document.getElementsByTagName('p').innerHTML= '<h1>this is DOM shit</h1>'
+        // document.getElementById('demo').innerText = "this is DOM shit"
+        // document.getElementsByClassName('h2')[2].innerHTML = "this is DOM shit"
+        // document.guerySelector('#lol').innerHTML = "this is DOM shit" 
+        // document.guerySelectorAll('h1').innerHTML = "this is DOM shit" 
+        // document.getElementsByTagName('body')[0].style.backgroundColor = 'blue';
+        // document.guerySelector('body').style.backgroundColor = 'blue'; 
+        // document.querySelectorAll('p')[1].style.backgroundColor = 'blue';
+        // document.querySelectorAll('p')[1].style.color = 'white';
+        // // document.querySelectorAll('p')[1].style.textAlign = 'center';
+        
+        // function sayHi() {
+        //     document.getElementById('eventGuy').innerHTML = "the guy is good"
+        // }
+        //                 // classList
+        // function modeChange() {
+        //     document.getElementsByTagName('body')[0].classList.toggle('light-mode')
+        // }
+    
+
+        //                     // addEventListener
+
+        // document.getElementsByTagName('button') [0].addEventListener('click', function(){
+        //     alert('hello')    
+        // })
+
+        // document.getElementsByTagName('button') [0].addEventListener('click', sayHi(){
+        //     alert('hello')    
+        // })
+                            // MODE-CHANGER
+        function colorChanger() {
+            document.getElementById('changer').style.backgroundColor = 'red';
+            
+        }
+
+        function reset() {
+            document.getElementById('changer').style.backgroundColor = '#fff';
+            
+        }
+
+        // function getvalue() {
+        //     var current = document.getElementById('')  
+        // }
+        
+
+    </script>
+    
+</body>
+</html>

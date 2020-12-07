@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/47ef3e35f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>challenge1</title>
+    <link rel="stylesheet" href="challenge1.css">
+</head>
+<body>
+  
+
+
+         <!-- challenge 1 -->
+        <div class="container-1">
+            <h2>Javascript Challenge 1: Your age in days</h2>
+            <div class="container-flex-1">
+                <div>
+                    <button class="btn btn-primary" onclick="ageInDays()">click me</button>
+                </div>
+                <div>
+                    <button class="btn btn-danger" onclick="reset()">reset</button>
+                </div>
+            </div>
+            <div class="container-flex-1">
+                <div class="result">
+                    <p id="demo"></p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+         <!-- challenge 2 -->
+        <div class="container-2">
+            <h2>Javascript challenge 2: Cat Generator</h2>
+            <button class="btn btn-success m-2" id="cat-generator" onclick="generateCat()">Cat generator</button>
+            <div class="container-flex-2" id="cat-gen">
+            
+            </div>
+        </div>
+
+
+
+
+            <!-- challenge 3 -->
+        <div class="container-3">
+            <h2>Javascript challenge 3: Rock, Paper, Scissors</h2>
+            <div class="container-flex-3" id="flex-rps">
+                <img id="rock" src="rock.png" width="150px" height="150px" onclick="rpsGame(this)" alt="">
+                <img id="paper" src="paper.png" width="150px" height="150px" onclick="rpsGame(this)" alt="">
+                <img id="scissors" src="scissors.png" width="150px" height="150px" onclick="rpsGame(this)" alt="">
+            </div>
+        </div> 
+        
+        
+
+        <!-- challenge 4 -->
+        <div class="container-4">
+            <h2 id="color-changer">Javascript Challenge 4: change the color of all buttons</h2>
+            <div class="container-flex-4">
+                <form action="">
+                    <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                        <option value="random">Random</option>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="reset">Reset</option>
+                    </select>
+                </form>
+                <button class="btn btn-primary">Wee!</button>
+                <button class="btn btn-danger">Yahoo!</button>
+                <button class="btn btn-warning">Google!</button>
+                <button class="btn btn-success">Facebok!</button>
+            </div>
+        </div>
+        
+
+
+            <!-- <center>
+                <div class="circle">
+                    <span id="display" class="time">00:00:00</span>
+                </div>
+        
+               
+           
+                <div>
+                    <button >
+                        <svg id="playButton" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-pause-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/>
+                        </svg>
+                
+            
+                        <svg id="pauseButton" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-play" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
+                        </svg>
+                    </button>
+
+            
+        
+                    <button>     
+                        <svg id="resetButton" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-play" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
+                        </svg>
+                    </button>
+                </div>
+            </center> -->
+
+
+
+        </div>
+
+        <script src="challenge1.js"></script>
+
+</body>
+</html>
